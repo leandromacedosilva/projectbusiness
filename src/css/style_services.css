@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:ital,wght@0,100;0,200;1,200;1,400&display=swap');
+
+/*
+ * font-family: 'Kaushan Script', cursive;
+ * font-family: 'Poppins', sans-serif;
+ */
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Kaushan Script', cursive;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  --hue: 228;
+  --color-body: hsl(var(--hue), 100%, 4%);
+  --color-body-two: hsl(46, 100%, 50%);
+  --color-body-three: hsl(65, 100%, 67%);
+  --color-fonts: hsl(var(--hue), 100%, 100%);
+  --color-fonts-black: hsl(88, 100%, 0%);
+}
+
+body {
+  /*background-color: var(--color-body);*/
+  background-image: linear-gradient(to right, var(--color-body-three), var(--color-body-two));
+}
+
+/* main format */
+.cardTitle h1 {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.cardOptions {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding-top: 1rem;
+}
